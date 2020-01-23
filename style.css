@@ -37,6 +37,16 @@
     z-index: 1;
 }
 
+#place-time img{
+    width: 100%;
+    object-fit: cover;
+}
+
+#place-time {
+    background-color: #343a40 !important;
+    color: white;
+}
+
 #footer {
     background: #1c3643;
     ;
