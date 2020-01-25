@@ -41,7 +41,7 @@
             <a class="nav-link" href="#orador">Conviértete en orador</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-platzi" href="#">Comprar tickets</a>
+            <a class="nav-link text-platzi" href="#" data-target="#modalCompra" data-toggle="modal">Comprar tickets</a>
           </li>
         </ul>
       </div>
@@ -72,8 +72,8 @@
                   Ven a conocer a miembros del Team Platzi, a otros estudiantes de Platzi
                   y a los oradores que tenemos de primer nivel para ti. Te esperamos!
                 </p>
-                <a href="#" class="btn btn-outline-light">Quiero ser orador</a>
-                <button type="button" class="btn btn-platzi">Comprar tickets</button>
+                <a class="btn btn-outline-light" href="#orador">Quiero ser orador</a>
+                <button type="button" class="btn btn-platzi" data-target="#modalCompra" data-toggle="modal">Comprar tickets</button>
               </div>
             </div>
           </div>
@@ -264,6 +264,44 @@
     crossorigin="anonymous"></script>
 
     <script src="script.js"></script>
+
+
+    <!-- Modal ------------------------->
+    <div class="modal fade" id="modalCompra" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalCenterTitle">Comprar tickets</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form action="">
+              <div class="form-row">
+                <div class="form-group col">
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1">@</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="andres-campuzano-garzon/" aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+                </div>
+              </div>
+            </form>
+            <div class="alert alert-warning" role="alert">
+              Recibiras un correo de confirmación si sales sorteado.
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            <a class="btn btn-platzi" href="https://platzi.com/@andres-campuzano-garzon/" target=”_blank”>Comprar</a>
+          </div>
+        </div>
+      </div>
+    </div>   
+     <!-- /Modal ------------------------->
+
 </body>
 
 </html>
