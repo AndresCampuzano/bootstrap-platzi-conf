@@ -1,6 +1,6 @@
 # bootstrap-platzi-conf
 
-Webpage made with Bootstrap about a fake conference. You can check the demo [here](https://andrescampuzano.github.io/bootstrap-platzi-conf/)
+Webpage made with Bootstrap for a conference. You can check the demo [here](https://andrescampuzano.github.io/bootstrap-platzi-conf/)
 
 ## What I learnt
 
